@@ -13,7 +13,11 @@
   git remote set-url origin git@github.com:User/project-new.git
   
 # Undo last commit
-  - git reset
+  git reset
   + --soft HEAD~1: back to staging
   + (default) --mixed HEAD~1: back to working tree
   + --hard HEAD~1: back to the beginning, working tree clean
+
+# show log
+  git log
+  git log --oneline (-n3)
